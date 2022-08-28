@@ -1,2 +1,2 @@
 # item_record_tool
-Tech: Angular, Spring Boot
+Tech: Angular, Spring Boot, MySQL
