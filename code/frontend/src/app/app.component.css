@@ -1,0 +1,21 @@
+.navcss {
+    text-align: center;
+    float: None;
+    background-color: beige;
+}
+
+.itemcss {
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+
+.headcss {
+    background-color: beige;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: orange;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

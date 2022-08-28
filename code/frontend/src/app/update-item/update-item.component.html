@@ -1,0 +1,31 @@
+<div class="col-md-6 offset-md-3">
+        <h2 class = 'headcss' style = 'color:blueviolet; font-family: Courier; text-align: center'> Update Item Info </h2>
+        <form (ngSubmit) = "onSubmit()" class="d-grid gap-3">
+            <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-primary" style="width: 125px; color:white; font-family: Courier;">Name</span>
+                    </div>
+                    <input type="text" class="form-control" id = "name"
+                            [(ngModel)] = "item.name" name = "name" style="background-color:rgb(241, 218, 241)">
+                </div>
+            
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-primary" style="width: 125px; color:white; font-family: Courier;">Location</span>
+                    </div>
+                    <input type="text" class="form-control" id = "location"
+                                [(ngModel)] = "item.location" name = "location" style="background-color:rgb(241, 218, 241)">
+                </div>
+            
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-primary" style="width: 125px; color:white; font-family: Courier;">Description</span>
+                    </div>
+                    <input type="text" class="form-control" id = "description"
+                                    [(ngModel)] = "item.description" name = "description" style="background-color:rgb(241, 218, 241)">
+                </div>
+            
+                <button class = "btn btn-success" type="submit" style="width: 200px;font-family: Courier; border-width:thick; border-color: rgb(149, 207, 152)"> Submit Item</button>
+                
+        </form>
+</div>

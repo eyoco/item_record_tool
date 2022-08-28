@@ -1,0 +1,22 @@
+<div class = "navcss">
+    <ul class = "nav justify-content-center">
+        <li class = "nav-item">
+            <a class="headcss text-center">{{title}}</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="items" routerLinkActive="active" class = "nav-link itemcss">Item List</a>
+        </li>
+        <div class = "vr" style = 'color:rgb(39, 199, 34)'></div>
+        <li class = "nav-item">
+            <a routerLink="add-item" routerLinkActive="active" class = "nav-link itemcss">Add Item</a>
+        </li>
+        <li class = "nav-item">
+            <a class="headcss text-center">Made by Anna</a>
+        </li>
+    </ul>
+</div>
+
+
+<div class = "container">
+    <router-outlet></router-outlet>
+</div>

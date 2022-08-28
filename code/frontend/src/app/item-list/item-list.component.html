@@ -1,0 +1,26 @@
+<h2 class = 'headcss' style = 'color:blueviolet; font-family: Courier;'> Item List </h2>
+<table class = "table table-bordered table-stripped">
+    <thead class = 'thead-light'>
+        <tr>
+            <th class = "table-warning uvcss"> Actions </th>
+            <th class = "table-info infocss"> Name </th>
+            <th class = "table-info infocss"> Location </th>
+            <th class = "table-info infocss"> Description </th>
+            <th class = "table-danger deletecss"> Action(Delete) </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let item of items">
+            <td class = "table-warning uvcss">
+                <button (click) = "updateItem(item.id!)" class = "btn btn-warning btn-outline-secondary"> Update </button>
+                <button (click) = "itemDetails(item.id!)" class = "btn btn-warning btn-outline-secondary" style="margin-left: 10px"> Details </button>
+            </td>
+            <td class = "table-info infocss"> {{ item.name }}</td>
+            <td class = "table-info infocss"> {{ item.location }}</td>
+            <td class = "table-info infocss"> {{ item.description }}</td>
+            <td class = "table-danger deletecss">
+                <button (click) = "deleteItem(item.id!)" class = "btn btn-danger" style="margin-left: 10px"> Delete </button>
+            </td>
+        </tr>
+    </tbody>
+</table>

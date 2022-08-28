@@ -1,0 +1,11 @@
+<div class="col-md-6 offset-md-3">
+    <h2 class = 'headcss col-md-6 offset-md-3' style = 'color:blueviolet; font-family: Courier; text-align: center'> Item Details</h2>
+    <div class="card col-md-6 offset-md-3" style="width: 18rem; background-color: rgb(150, 235, 226)">
+        <div class="card-body" style="text-align: center">
+            <h5 class="card-title" style="color: rgb(185, 21, 89); font-family: Courier;">{{item.name}}</h5>
+            <p class="card-text" style="color: rgb(185, 21, 89); font-family: Courier;"><label><b> Location: </b></label>{{item.location}}</p>
+            <p class="card-text" style="color: rgb(185, 21, 89); font-family: Courier;"><label><b> Description: </b></label>{{item.description}}</p>
+            <button (click) = "updateItem(item.id!)" class = "btn btn-warning btn-outline-secondary" style = "border-width:thick; border-color:yellow"> Update </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.spancss {
+    border: thick;
+}
+
+.btnSubmit {
+    width: 200px;
+    font-family: Courier; 
+    border-width:thick; 
+    border-color: rgb(149, 207, 152)
+}
+
+.btnSubmit:hover {
+    background-color: RoyalBlue;
+}

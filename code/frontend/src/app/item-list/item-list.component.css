@@ -1,0 +1,29 @@
+.infocss {
+    text-align: center;
+    color: rgb(25, 23, 143);
+    border-width: thick;
+    border-color: rgb(24, 128, 177);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.uvcss {
+    text-align: center;
+    color: rgba(160, 99, 1, 0.863);
+    border-width: thick;
+    border-color: rgb(155, 96, 19);
+    border-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deletecss {
+    text-align: center;
+    color: rgba(211, 7, 7, 0.863);
+    border-width: thick;
+    border-color: rgb(187, 30, 9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headcss {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
